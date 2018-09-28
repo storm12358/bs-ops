@@ -1,0 +1,122 @@
+2018/09/25 18:23:07 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 18:23:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    448.698µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 18:23:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  35.424555ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.407165ms|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 18:25:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  44.667377ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.563023ms|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 18:25:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 677.083985ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     360.68µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 18:25:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 458.012951ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  45.374693ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  53.821559ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:25:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 451.507532ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:26:26 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 18:26:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 470.644195ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:27:06 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 18:27:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    448.237µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 18:28:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|1m23.99155711s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:29:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|19.119176937s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 18:29:38 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 18:29:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 9.875624978s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:02:34 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 19:02:40 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    337.966µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 19:02:42 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  39.875181ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:02:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 3.184318146s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:03:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 5.759835895s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:37:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 19:38:32 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    562.004µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 19:38:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  475.16707ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:38:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 6.800472089s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:41:02 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 19:41:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    446.888µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 19:41:09 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 463.787997ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 19:41:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 5.797567063s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:11:46 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:11:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    617.874µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:11:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  13.104538ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:11:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  49.422993ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:11:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  39.646324ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:11:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  51.382685ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:11:59 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 241.112902ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:12:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 7.876974207s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:12:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 8.927687635s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:14:51 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:15:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    821.374µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:15:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  8.22551535s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:16:52 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:17:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    442.806µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:17:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    464.553µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:17:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 9.682767348s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:18:40 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:18:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    470.411µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:19:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 8.016205612s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:19:07 [I] [deploy.go:38] Running shell  gameserver [--config-path ConfigLocal]
+2018/09/25 20:19:07 [E] [deploy.go:38] &{0xc4200880a0} Error starting Cmd exec: "gameserver": executable file not found in $PATH
+2018/09/25 20:20:27 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:20:35 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    477.247µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:20:38 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    462.425µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 8.244669954s|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:20:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.243974ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:20:52 [I] [deploy.go:38] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/25 20:20:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  59.183964ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:20:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.123798ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:20:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  44.965459ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:21:04 [I] [deploy.go:38] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/25 20:21:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  51.655249ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:21:06 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  47.448168ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:21:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    399.413µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:21:16 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   52.95905ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:21:56 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  16.143515ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:22:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m| 260.909467ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:24:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  83.313057ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:25:37 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:25:40 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    478.074µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:25:43 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  38.415925ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:25:45 [I] [deploy.go:38] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/25 20:25:45 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  49.089608ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:25:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  44.062069ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:25:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.747138ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:31:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:31:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    383.435µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:31:23 [D] [server.go:2619] |      127.0.0.1|[47m 301 [0m|    272.863µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:31:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    118.262µs|   match|[44m GET     [0m /deploy/action/   r:/deploy/action
+2018/09/25 20:31:25 [D] [server.go:2619] |      127.0.0.1|[47m 301 [0m|    142.794µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:31:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     49.974µs|   match|[44m GET     [0m /deploy/action/   r:/deploy/action
+2018/09/25 20:31:31 [D] [server.go:2619] |      127.0.0.1|[47m 301 [0m|    137.552µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:31:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     58.051µs|   match|[44m GET     [0m /deploy/action/   r:/deploy/action
+2018/09/25 20:34:37 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:34:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  24.387217ms|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:34:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    306.689µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:36:01 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:36:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     582.07µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:36:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    273.191µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:40:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:40:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    401.087µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:40:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    337.462µs|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:51:46 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:51:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    324.445µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:51:55 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    385.128µs| nomatch|[44m GET     [0m /deploy/downloadLog
+2018/09/25 20:52:49 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:53:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    448.414µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:53:02 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    284.118µs|   match|[44m GET     [0m /deploy/downloadLog   r:/deploy/downloadLog
+2018/09/25 20:53:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     721.47µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:53:57 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 20:54:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    625.039µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:54:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  38.381748ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:05 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  44.882173ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    381.831µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:54:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   39.05179ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:16 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  43.027132ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  36.624824ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:18 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  41.500153ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:19 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  37.727725ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    222.648µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 20:54:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  41.899125ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  45.387634ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:23 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  40.876703ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  39.853759ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/25 20:54:57 [I] [asm_amd64.s:2337] http server Running on http://:8081
+2018/09/25 21:05:23 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/09/25 21:05:26 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    614.545µs|   match|[44m GET     [0m /deploy/   r:/deploy
+2018/09/25 21:05:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    358.596µs|   match|[44m GET     [0m /     r:/
+2018/09/25 21:05:31 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  38.074222ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action

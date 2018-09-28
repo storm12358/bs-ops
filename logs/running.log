@@ -1,0 +1,26 @@
+2018/09/28 21:10:07 [I] [deploy.go:39] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/28 21:10:07 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  12.957631ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:10:08 [I] [deploy.go:39] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/28 21:10:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  61.616049ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:10:10 [I] [deploy.go:39] Running shell  /home/vagrant/workspace/msgame/dev/Server/golang/src/golang.garena.com/cow/gameserver/cmd/gameserver/gameserver [--config-path ConfigLocal]
+2018/09/28 21:10:10 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  57.126915ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:10:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  46.957603ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: ############## SceneData/Map002 Map002
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: AddOneSceneDataFormFile:  1
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: AddOneSceneDataFormFile:  1
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: AddOneSceneDataFormFile:  1
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: AddOneSceneDataFormFile:  1
+2018/09/28 21:10:33 [I] [asm_amd64.s:2337] GS running log: AddOneSceneDataFormFile:  0
+2018/09/28 21:10:34 [I] [asm_amd64.s:2337] GS running log: Create AutoPaht Service Ret:  0
+2018/09/28 21:10:34 [I] [asm_amd64.s:2337] GS running log: ~~~~~~~~~~MonsterGameLogic.Create~~~~~~~~~~~~~~~~
+2018/09/28 21:12:05 [I] [asm_amd64.s:2337] GS running log: 62 -- Zone: 8 danger level up to  2
+2018/09/28 21:13:03 [I] [asm_amd64.s:2337] GS running log: 120 -- Warning first boss zone:  8
+2018/09/28 21:13:34 [I] [asm_amd64.s:2337] GS running log: 150 -- Spawn Boss at zone:  8
+2018/09/28 21:13:49 [I] [asm_amd64.s:2337] GS running log: 165 -- Warning boss zone:  7
+2018/09/28 21:14:19 [I] [asm_amd64.s:2337] GS running log: 195 -- Spawn Boss at zone:  7
+2018/09/28 21:14:34 [I] [asm_amd64.s:2337] GS running log: 210 -- Warning boss zone:  10
+2018/09/28 21:15:05 [I] [asm_amd64.s:2337] GS running log: 240 -- Spawn Boss at zone:  10
+2018/09/28 21:15:50 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    371.921µs|   match|[44m GET     [0m /     r:/
+2018/09/28 21:15:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  39.773968ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:15:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  44.190583ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action
+2018/09/28 21:15:53 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  43.318481ms|   match|[46m POST    [0m /deploy/action   r:/deploy/action

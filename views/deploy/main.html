@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Deploy web</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container" style="margin-top:20px">
+        <div class="form-group">
+            <button type="button" class="btn btn-primary op_btn" data-type="show_stats">Show stats</button>
+            <button type="button" class="btn btn-primary op_btn" data-type="source_sync">Source sync</button>
+            <button type="button" class="btn btn-primary op_btn" data-type="rebuild_gs">Rebuild GS</button>
+            <button type="button" class="btn btn-primary op_btn" data-type="restart_gs">Restart GS</button>
+            <button type="button" class="btn btn-primary op_btn" data-type="download_log">Download Log</button>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <pre id="msg_div">
+                </pre>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+$(function(){
+    $(".op_btn").click(function(){
+        $("#msg_div").html("Please waiting...")
+        var param = {
+            type : $(this).data('type')
+        }
+        if ($(this).data('type') == "download_log") {
+            window.open("/deploy/downloadLog");
+        } else {
+            $.post( "/deploy/action", param, function(resp){
+                $("#msg_div").html(resp.message)
+            });
+        }
+    });
+})
+</script>
+</html>
