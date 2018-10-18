@@ -10,4 +10,13 @@ func init() {
 	beego.Router("/deploy", &controllers.DeployController{})
 	beego.Router("/deploy/action", &controllers.DeployController{}, "*:Action")
 	beego.Router("/deploy/downloadLog", &controllers.DeployController{}, "*:DownloadLog")
+
+	daemon()
+}
+
+func daemon() {
+	go func() {
+		c := &controllers.DeployController{}
+		c.FolderWatcher()
+	}()
 }

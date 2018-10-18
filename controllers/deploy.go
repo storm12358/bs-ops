@@ -3,10 +3,13 @@ package controllers
 import (
 	"bufio"
 	"bytes"
+	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
 
 	"github.com/astaxie/beego/logs"
+	"github.com/fsnotify/fsnotify"
 
 	"github.com/astaxie/beego"
 	"golang.garena.com/cow/bs-ops/models"
@@ -138,4 +141,47 @@ func exec_shell(s string) string {
 		// return err.Error()
 	}
 	return out.String()
+}
+func (this *DeployController) FolderWatcher() {
+	logs.Info("####Watching")
+	watcher, err := fsnotify.NewWatcher()
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer watcher.Close()
+
+	done := make(chan bool)
+	go func() {
+		for {
+			select {
+			case event, ok := <-watcher.Events:
+				if !ok {
+					return
+				}
+				// check gameserver changed
+				fileName := filepath.Base(event.Name)
+				if fileName != "gameserver" {
+					continue
+				}
+				logs.Info("#### Change Event", event.Op)
+				if event.Op&fsnotify.Write == fsnotify.Write || event.Op&fsnotify.Create == fsnotify.Create {
+					logs.Info("#### modified file:", event.Name)
+					this.sourceSync()
+					this.restartGS()
+				}
+			case err, ok := <-watcher.Errors:
+				if !ok {
+					return
+				}
+				logs.Info("error:", err)
+			}
+		}
+	}()
+
+	dir := beego.AppConfig.String("gameserverdir")
+	err = watcher.Add(dir)
+	if err != nil {
+		log.Fatal(err)
+	}
+	<-done
 }
