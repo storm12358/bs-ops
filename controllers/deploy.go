@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"time"
 
 	"github.com/astaxie/beego/logs"
 	"github.com/fsnotify/fsnotify"
@@ -94,9 +95,9 @@ func (this *DeployController) restartGS() RespJson {
 	if cmd != nil {
 		cmd.Process.Kill()
 	}
-	shell := beego.AppConfig.String("gameserverdir") + "/gameserver"
+	gsFile := beego.AppConfig.String("gameserverdir") + "/gameserver"
 	args := []string{"--config-path", beego.AppConfig.String("gameservercfg")}
-	cmd = exec.Command(shell, args...)
+	cmd = exec.Command(gsFile, args...)
 	cmd.Dir = beego.AppConfig.String("gameserverdir")
 
 	//
@@ -106,7 +107,7 @@ func (this *DeployController) restartGS() RespJson {
 	}
 	scanner := bufio.NewScanner(cmdReader)
 
-	logs.Info("Running shell ", shell, args)
+	logs.Info("Running shell ", gsFile, args)
 	err := cmd.Start()
 	if err != nil {
 		logs.Error(os.Stderr, "Error starting Cmd", err)
@@ -143,7 +144,6 @@ func exec_shell(s string) string {
 	return out.String()
 }
 func (this *DeployController) FolderWatcher() {
-	logs.Info("####Watching")
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
 		log.Fatal(err)
@@ -167,6 +167,13 @@ func (this *DeployController) FolderWatcher() {
 				if event.Op&fsnotify.Write == fsnotify.Write || event.Op&fsnotify.Create == fsnotify.Create {
 					logs.Info("#### modified file:", event.Name)
 					this.sourceSync()
+					// cp gameserver file
+					gsFile := beego.AppConfig.String("gameserverdir") + "/gameserver"
+					shell := "cp -f " + this.watchDir() + "/gameserver " + gsFile
+					exec_shell(shell)
+					os.Chmod(gsFile, 0755)
+
+					time.Sleep(time.Duration(2) * time.Second)
 					this.restartGS()
 				}
 			case err, ok := <-watcher.Errors:
@@ -178,10 +185,15 @@ func (this *DeployController) FolderWatcher() {
 		}
 	}()
 
-	dir := beego.AppConfig.String("gameserverdir")
+	// dir := beego.AppConfig.String("gameserverdir")
+	dir := this.watchDir()
 	err = watcher.Add(dir)
 	if err != nil {
 		log.Fatal(err)
 	}
 	<-done
+}
+
+func (this *DeployController) watchDir() string {
+	return "/root/version/"
 }
